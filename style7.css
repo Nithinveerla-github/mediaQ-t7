@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (orientation: portrait){
+    button{
+        background-color: orange;
+        color: white;
+    }
+}
+@media screen and (orientation: landscape){
+    button{
+        background-color: teal;
+        color: white;
+    }
+}
